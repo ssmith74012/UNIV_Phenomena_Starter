@@ -10,7 +10,10 @@
     "test": "jest  --runInBand --verbose",
     "test:watch": "jest --watchAll --runInBand --verbose",
     "test:watch:db": "jest --watchAll db",
-    "test:watch:api": "jest --watchAll api"
+    "test:watch:api": "jest --watchAll api",
+    "seed:dev": "nodemon ./db/seed.js",
+    "start:dev": "nodemon index.js",
+    "seed": "node ./db/seed.js"
   },
   "keywords": [],
   "author": "",
